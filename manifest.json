@@ -1,0 +1,34 @@
+{
+    "name": "LinkedIn Dark Side",
+    "short_name": "DarkVision for LinkedIn",
+    "description": "Modern and dark look of LinkedIn.",
+    "version": "1.0.0",
+    "author":  "IlkemErol",
+    
+    "icons": {
+        "128": "icon/linkedin-dark-128.png"
+    },
+
+    "permissions": [ 
+        "https://www.linkedin.com/*", "http://www.linkedin.com/*"
+    ],
+    
+    "content_scripts": 
+    [
+        {
+            "matches": ["https://www.linkedin.com/*", "http://www.linkedin.com/*"],
+            "css":  ["dark.css"],
+            "run_at": "document_start",
+            "all_frames" : true
+        }
+
+    ],
+
+    "browser_action": {
+        "default_icon": "icon/linkedin-dark-32.png",
+        "default_title": "LinkedIn Dark Side",
+        "default_popup": "popup.html"
+    },
+
+    "manifest_version": 2
+}
