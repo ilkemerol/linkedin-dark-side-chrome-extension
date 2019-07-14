@@ -1,37 +1,55 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <style>
-            body { 
-                min-width: 300px; 
-                overflow-x: hidden; 
-                font-family: Calibri, sans-serif; 
-                font-size: 16px; 
-            }
-            hr {
-                border: 0;
-                height: 1px;
-                background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-            }
-        </style>
-    </head>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Kanit&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./styles/css/all.css" />
+    <!-- Bootstrap core CSS -->
+    <link href="./styles/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Material Design Bootstrap -->
+    <link href="./styles/css/mdb.min.css" rel="stylesheet" />
+    <link href="./styles/css/custom.css" rel="stylesheet" />
+  </head>
 
-    <body bgcolor= "#696969">
-        <h2 style="color:#C7D1D8;text-align:center;">DarkSide LinkedIn</h2>
-        <p style="color:#C7D1D8;text-align:center; font-size:14px;">Stay Dark Side</p>
-        <p style="color:#C7D1D8;text-align:center; font-size:14px;">Are some things wrong or suggestions?</p>
-        <p style="color:#C7D1D8;text-align:center; font-size:14px;">ilkem.erol@hotmail.com</p>
-        <hr>
-        <p style="color:#C7D1D8;text-align:center; font-size:14px;">Author & Desinger: Ilkem Erol</p>
-        <a href="www.ilkemerol.com" target="_blank" style="color:#C7D1D8;text-align:center; font-size:14px;float: right;outline: 0;margin-bottom: 10px;">ilkemerol.com</a>
-    </body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            $('body').on('click', 'a', function(){
-                chrome.tabs.create({url: $(this).attr('href')});
-                return false;
-            });
-        });
-    </script>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-6 pt-2 pb-2 text-center">
+          <img
+            src="./styles/image/darth-vader.png"
+            alt="darth-vader"
+            width="128"
+          />
+        </div>
+        <div class="col-6 pt-2 pb-2">
+          <h2 class="text-center text-uppercase">Welcome</h2>
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col-6">
+          <p>Leave Dark Side</p>
+        </div>
+        <div class="col-6 text-center">
+          <!-- Default switch -->
+          <div class="custom-control custom-switch">
+            <input
+              type="checkbox"
+              class="custom-control-input"
+              id="customSwitches"
+            />
+            <label class="custom-control-label" for="customSwitches"></label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./styles/js/jquery.min.js"></script>
+  <script src="./styles/js/popper.min.js"></script>
+  <script src="./styles/js/bootstrap.min.js"></script>
+  <script src="./styles/js/mdb.min.js"></script>
+  <script src="./popup.js"></script>
 </html>

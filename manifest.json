@@ -1,36 +1,34 @@
 {
-"update_url": "https://clients2.google.com/service/update2/crx",
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "name": "test-name",
+  "short_name": "test-short-name",
+  "description": "test-description",
+  "version": "3.0.0",
+  "author": "ilkem erol",
 
-    "name": "LinkedIn Dark Side",
-    "short_name": "DarkVision for LinkedIn",
-    "description": "Modern and dark design of LinkedIn.",
-    "version": "2.0.0",
-    "author":  "IlkemErol",
-    
-    "icons": {
-        "128": "icon/linkedin-dark-128.png"
-    },
+  "icons": {
+    "128": "icon/linkedin-dark-128.png"
+  },
 
-    "permissions": [ 
-        "https://www.linkedin.com/*", "http://www.linkedin.com/*"
-    ],
-    
-    "content_scripts": 
-    [
-        {
-            "matches": ["https://www.linkedin.com/*", "http://www.linkedin.com/*"],
-            "css":  ["dark-v2.css"],
-            "run_at": "document_start",
-            "all_frames" : true
-        }
+  "permissions": ["https://www.linkedin.com/*", "http://www.linkedin.com/*"],
 
-    ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.linkedin.com/*", "http://www.linkedin.com/*"],
+      "js": ["inject/index.js"],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": "icon/linkedin-dark-32.png",
+    "default_title": "test-popup",
+    "default_popup": "popup.html"
+  },
 
-    "browser_action": {
-        "default_icon": "icon/linkedin-dark-32.png",
-        "default_title": "LinkedIn Dark",
-        "default_popup": "popup.html"
-    },
-
-    "manifest_version": 2
+  "manifest_version": 3
 }

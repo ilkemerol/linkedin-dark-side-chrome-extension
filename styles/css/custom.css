@@ -1,0 +1,12 @@
+body {
+  width: 500px;
+  font-family: "Kanit", sans-serif;
+  background-color: #143840;
+  color: #d8e4e6;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, #143840, #d8e4e6, #143840);
+}
