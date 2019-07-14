@@ -1,0 +1,363 @@
+/*
+    *
+    *
+    *
+    Author: İlkem Erol
+    Date: 16.06.2018
+    *
+    *
+    *
+*/
+
+#voyager-feed,
+.application-outlet {
+    background-color: dimgray !important;
+}
+
+#ads-container,
+.ta-creative__description {
+    background: transparent !important;/*linear-gradient(-90deg, dimgray, white, dimgray);*/
+}
+
+::selection {
+    background: transparent !important;
+    color: #0072b1 !important;
+}
+
+.sharing-share-box--is-unfocused {
+    box-shadow: 0 0 0 0 rgba(0,0,0,.1), 0 0 0 rgba(0,0,0,.2) !important;
+}
+
+.sharing-create-share-view__wrapper,
+.sharing-share-box .sharing-share-box--is-unfocused,
+.sharing-create-share-view,
+.sharing-share-box__sharing-subaction-bar,
+.sharing-subaction-bar--is-collapsed,
+.feed-shared-first-prompt-block,
+.feed-shared-update-v2,
+.feed-shared-social-action-bar,
+.profile-rail-card,
+.Elevation-2dp,
+.feed-shared-likers-modal,
+.container-with-shadow,
+.artdeco-card,
+.feed-right-rail,
+.neptune-grid .right-rail .feed-right-rail__container,
+.invitation-card__custom-message-container,
+.right-rail-container,
+.core-rail,
+.right-rail .ad-banner-container,
+.nav-footer,
+.nt-settings-summary,
+.nt-segment,
+.profile-background-image__image-container,
+.artdeco-container-card {
+    border-radius: 10px !important;
+}
+
+.profile-rail-card__actor-meta,
+.feed-fe-modal__header,
+.feed-right-rail,
+.feed-right-rail__top-module {
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+}
+
+.feed-identity-module__anchored-widget,
+.mn-abi-form__container {
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+
+.Elevation-2dp {
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(199,209,217,1) !important;
+    -moz-box-shadow: 0px 0px 5px 1px rgba(199,209,217,1) !important;
+    box-shadow: 0px 0px 5px 1px rgba(199,209,217,1) !important;
+
+    margin-bottom: 20px !important;
+}
+
+.profile-rail-card__member-bg-image {
+    display: none !important;
+}
+
+.profile-rail-card__actor-meta,
+.feed-identity-module__widgets,
+.entity-list-item,
+.feed-shared-update-v2,
+.see-more,
+.feed-shared-mini-update,
+.feed-shared-social-action-bar,
+.feed-shared-first-prompt-block,
+.feed-identity-module__anchored-widget,
+.msg-overlay-bubble-header,
+.msg-overlay-list-bubble-search__input-container,
+.msg-conversation-card,
+.actor-list,
+.mn-abi-form__container,
+.mn-pymk-list__card,
+.msg-conversations-container__convo-item-link.active,
+.msg-form--thread .msg-form__footer,
+.invitation-card,
+.invitation-card__picture,
+.mn-connections .dropdown-trigger span,
+.mn-connection-card,
+.mn-connection-card__picture,
+.mn-connections .dropdown-trigger .svg-icon-wrap,
+.jobs-top-card,
+.jobs-home-hero-promo__header,
+.jobs-blended-container,
+.job-card--tile,
+.nav-footer,
+.nt-segment,
+.nt-card,
+.artdeco-container-card,
+.pv-profile-section.background-section.artdeco-container-card.pv-profile-section--reorder-enabled .pv-profile-section .pv-profile-section__section-info,
+.pv-profile-section.background-section.artdeco-container-card.pv-profile-section--reorder-enabled .pv-profile-section .pv-profile-section__section-info li,
+.pv-skill-categories-section__expanded,
+.pv-accomplishments-block--expanded,
+.pv-accomplishments-section::after,
+.pds-course-recommendations,
+.organization-outlet .org-about-company-module__show-details-button {
+    background-color: #c7d1d9 !important;
+}
+
+.Elevation-0dp {
+    box-shadow: 0 0 0 0px rgba(0,0,0,.1) !important;
+    border-top: 2px dashed dimgray !important;
+    margin-bottom: 5px !important;
+}
+
+.Sans-13px-black-85\%-semibold{
+    color: white !important;
+}
+
+.sort-dropdown__dropdown-list {
+    background-color: dimgray !important;
+    border-radius: 10px !important;
+}
+
+.sort-dropdown__list-item-button:hover {
+    color: dimgray !important;
+}
+
+.feed-right-rail__top-module,
+.right-rail .ad-banner-container,
+.container-with-shadow,
+.artdeco-card,
+.nav-footer,
+.nt-settings-summary {
+    background-color: #c7d1d9 !important;
+
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(199,209,217,1) !important;
+    -moz-box-shadow: 0px 0px 5px 1px rgba(199,209,217,1) !important;
+    box-shadow: 0px 0px 5px 1px rgba(199,209,217,1) !important;
+}
+
+.right-rail-container,
+.feed-right-rail__container {
+    background-color: #c7d1d9 !important;
+
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(199,209,217,1) !important;
+    -moz-box-shadow: 0px 0px 5px 1px rgba(199,209,217,1) !important;
+    box-shadow: 0px 0px 5px 1px rgba(199,209,217,1) !important;
+}
+
+.nav-right-rail-links,
+.nav-footer__text-link {
+    color: #c7d1d9 !important;
+}
+
+.neptune-grid.two-column .core-rail {
+    background-color: #c7d1d9 !important;
+
+    -webkit-box-shadow: 0px 0px 1px 3px rgba(199,209,217,1) !important;
+    -moz-box-shadow: 0px 0px 1px 3px rgba(199,209,217,1) !important;
+    box-shadow: 0px 0px 1px 3px rgba(199,209,217,1) !important;
+}
+
+.msg-title-bar__title-bar-title {
+    box-shadow: 0 7px 7px -2px grey !important;
+    background-color: #c7d1d9 !important;
+    border-bottom: 2px dashed #293e49 !important;
+}
+
+.msg-conversations-container,
+.msg-conversations-container__title,
+.msg-conversation-card,
+.msg-overlay-list-bubble-search__input-container {
+    border-bottom: 2px dashed #293e49 !important;
+}
+
+.msg-conversation-card__content {
+    border-bottom: 0px solid red !important;
+}
+
+.profile-rail-card {
+    box-shadow: 0 0 0 0 rgba(0,0,0,.1);
+}
+
+.ta-creative__headline-link,
+.ta-creative__description-link {
+    color: black !important;
+    font-weight: 100 !important;
+}
+
+.feed-shared-likers-modal__header {
+    background-color: dimgray !important;
+}
+
+.feed-shared-likers-modal__header h2,
+.artdeco-dismiss,
+.mn-connections__sort-options-trigger-icon,
+.mn-connections .dropdown-trigger .svg-icon-wrap,
+.pv-profile-sticky-header__name,
+.pv-profile-sticky-header__headline,
+.button-secondary-large-muted {
+    color: white !important;
+}
+
+.actor-list .actor-item:not(:last-child):after {
+    border-bottom: 2px dashed rgba(0,0,0,.15) !important;
+}
+
+.mn-pymk-list__card {
+    outline: dimgray 2px !important;
+    outline-style: dashed !important;
+}
+
+.msg-conversations-container {
+    border-right: 2px dashed #293e49 !important; 
+}
+
+.msg-search-form__search-field[type=search]:hover {
+    border-bottom: 0px dashed rgba(0,0,0,.15) !important;
+}
+
+.msg-search-form__search-field[type=search]:focus {
+    border-color: transparent !important;
+    box-shadow: 0 0 0 0 rgba(0,0,0,.1);
+}
+
+.nav-container .dropdown-options,
+.nav-settings__block {
+    background-color: #f3f6f8 !important;
+}
+
+.nav-settings__dropdown-title {
+    background-color: #c7d1d9 !important;
+    border-top: 2px dashed #293e49 !important; 
+    border-bottom: 2px dashed #293e49 !important; 
+}
+#rightfooter-default_copyright .svg-icon-wrap {
+    margin-bottom: 10px !important;
+}
+
+.mn-list-toolbar,
+.mn-filters-toolbar,
+.invitation-card,
+.mn-connection-card,
+.nt-card--in-segment,
+.pv-skill-category-entity__top-skill {
+    border-bottom: 2px dashed rgba(0,0,0,.15) !important;
+}
+
+.invitation-card::after,
+.mn-connection-card::after {
+    background-color: transparent !important;
+}
+
+.mn-manage-contacts-link__anchor {
+    margin-top: 10px !important;
+    padding: 10px !important;
+}
+
+#careers .jobs-jymbii__list-item:hover,
+.peek-carousel__card-item:hover {
+    background-color: white !important;
+}
+
+.nt-settings-summary {
+    margin-top: 10px !important;
+}
+
+.nav-footer {
+    /*border-top: 2px dashed #b3b6b9 !important;*/
+}
+
+#expanded-footer {
+    background-color: #c7d1d9 !important;
+}
+
+.pv-profile-section__card-heading{
+    padding: 10px !important;
+}
+
+.pv-profile-wrapper .section-info{
+    padding: 10px !important;
+    border-top: 2px dashed #b3b6b9 !important;
+    margin-top: 5px !important;
+}
+
+.artdeco-container-card, .right-rail .ad-banner-container {
+    border: 0px dashed dimgray !important;
+    box-shadow: 0 0 0 0 rgba(0,0,0,.1) !important;
+}
+
+.pv-profile-sticky-header {
+    background-color: #293e49 !important;
+}
+
+.pv-profile-section.background-section.artdeco-container-card.pv-profile-section--reorder-enabled .pv-profile-section .pv-profile-section__section-info li,
+.pv-profile-section.background-section.artdeco-container-card.pv-profile-section--reorder-enabled .pv-profile-section .pv-profile-section__sortable-card-item {
+    background: linear-gradient(to right, white , #c7d1d9) !important;
+    border-radius: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.pv-profile-section.background-section.artdeco-container-card.pv-profile-section--reorder-enabled .pv-profile-section .pv-profile-section__sortable-item::after,
+.pv-profile-section__card-item-v2::after, .pv-profile-section__card-item::after {
+    border-bottom: 0px solid red !important;
+}
+
+.pv-profile-section.background-section.artdeco-container-card.pv-profile-section--reorder-enabled .pv-profile-section .pv-profile-section__section-info {
+    border-top: 2px dashed #b3b6b9 !important;
+    border-top-right-radius: 10px !important;
+}
+
+.pv-entity__logo img,
+.organization-outlet .org-top-card-module__container img {
+    border-radius: 20px !important;
+}
+
+.pv-skill-categories-section__top-skills.pv-profile-section__section-info.section-info li {
+    background: linear-gradient(to right, white , #c7d1d9) !important;
+    border-radius: 10px !important;
+    padding-left: 10px !important;
+    margin-bottom: 5px !important;
+    border-bottom: 0px solid red !important;
+}
+
+.pv-skill-category-entity--secondary .pv-skill-category-entity__name {
+    border-radius: 10px !important;
+    padding: 7px !important;
+    background: linear-gradient(to right, white , #c7d1d9) !important;
+}
+
+.pds-course-recommendations {
+    border-top: 1px solid#c7d1d9 !important;
+    border-radius: 10px !important;
+    padding: 5px !important;
+}
+
+.organization-outlet .org-about-company-module__org-info--is-collapsed::after {
+    background: transparent !important;
+}
+
+.nt-card__right-rail .dropdown .dropdown-options {
+    border-radius: 10px !important;
+}
+
+.nav-settings__dropdown-title {
+    text-align: center !important;
+}

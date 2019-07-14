@@ -1,8 +1,10 @@
 {
+"update_url": "https://clients2.google.com/service/update2/crx",
+
     "name": "LinkedIn Dark Side",
     "short_name": "DarkVision for LinkedIn",
-    "description": "Modern and dark look of LinkedIn.",
-    "version": "1.0.0",
+    "description": "Modern and dark design of LinkedIn.",
+    "version": "2.0.0",
     "author":  "IlkemErol",
     
     "icons": {
@@ -17,7 +19,7 @@
     [
         {
             "matches": ["https://www.linkedin.com/*", "http://www.linkedin.com/*"],
-            "css":  ["dark.css"],
+            "css":  ["dark-v2.css"],
             "run_at": "document_start",
             "all_frames" : true
         }
@@ -26,7 +28,7 @@
 
     "browser_action": {
         "default_icon": "icon/linkedin-dark-32.png",
-        "default_title": "LinkedIn Dark Side",
+        "default_title": "LinkedIn Dark",
         "default_popup": "popup.html"
     },
 
