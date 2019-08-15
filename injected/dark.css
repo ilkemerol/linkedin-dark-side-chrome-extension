@@ -1,0 +1,9 @@
+/* Home Bg */
+
+div.neptune-grid.three-column.ghost-animate-in {
+  background-color: #143840 !important;
+}
+
+div.self-focused.ember-view {
+  background-color: #143840 !important;
+}

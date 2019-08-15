@@ -1,34 +1,36 @@
 {
-    "name": "LinkedIn Dark Side",
-    "short_name": "DarkVision for LinkedIn",
-    "description": "Modern and dark look of LinkedIn.",
-    "version": "1.0.0",
-    "author":  "IlkemErol",
-    
-    "icons": {
-        "128": "icon/linkedin-dark-128.png"
-    },
+  "name": "Dark Side",
+  "short_name": "DarkVision",
+  "description": "Easy read and customize some design.",
+  "version": "3.1.2",
+  "author": "Ilkem Erol",
 
-    "permissions": [ 
-        "https://www.linkedin.com/*", "http://www.linkedin.com/*"
-    ],
-    
-    "content_scripts": 
-    [
-        {
-            "matches": ["https://www.linkedin.com/*", "http://www.linkedin.com/*"],
-            "css":  ["dark.css"],
-            "run_at": "document_start",
-            "all_frames" : true
-        }
+  "icons": {
+    "128": "icon/linkedin-dark-128.png"
+  },
 
-    ],
+  "permissions": [
+    "https://www.linkedin.com/*",
+    "http://www.linkedin.com/*",
+    "storage"
+  ],
 
-    "browser_action": {
-        "default_icon": "icon/linkedin-dark-32.png",
-        "default_title": "LinkedIn Dark Side",
-        "default_popup": "popup.html"
-    },
+  "content_scripts": [
+    {
+      "matches": ["https://www.linkedin.com/*", "http://www.linkedin.com/*"],
+      "js": ["content/contentScript.js", "cors/jquery.min.js"],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
 
-    "manifest_version": 2
+  "web_accessible_resources": ["injected/dark.css"],
+
+  "browser_action": {
+    "default_icon": "icon/linkedin-dark-32.png",
+    "default_title": "Dark Side",
+    "default_popup": "popup/popup.html"
+  },
+
+  "manifest_version": 2
 }
